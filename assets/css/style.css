@@ -1,0 +1,328 @@
+html {
+    overflow-x: hidden;
+}
+.header {
+    position:relative;
+    padding:30px;
+}
+.header .logo a {
+    color:#fff;
+    font-size: 30px;
+}
+.header .hamburgur-menu {
+    width:35px;
+    height:20px ;
+}
+.header .hamburgur-menu span {
+    width:100%;
+    height:2px;
+    background:#fff;
+    cursor: pointer;
+}
+.hero-section {
+    background-image: url(../images/hero_1.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    min-height: 700px;
+    background-position: center center;
+    position:relative;
+}
+.hero-section:before {
+    content: "";
+    position:absolute;
+    top:0;
+    left:0; 
+    width:100%;
+    height:100vh;
+    min-height: 700px;
+    background:#000;
+    opacity:0.2;
+}
+.hero-section .hero-section-content {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    text-align:center;
+    line-height: 85px;
+}
+.hero-section .hero-section-content h1 {
+    font-size: 80px;
+    color:#fff;
+}
+.hero-section .hero-section-content p {
+    font-size: 30px;
+    font-weight: 200;
+    color:#fff;
+}
+.hero-section .hero-section-content p a {
+    color:rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.hero-section .hero-section-content p a:hover {
+    border-bottom: 1px solid #fff;
+}
+.hero-section .scroll-down {
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%) ;
+    color:#fff;
+}
+.hero-section .scroll-down i {
+    transform: rotate(90deg);
+    font-size: 14px;   
+}
+.hero-section .scroll-down span {
+    font-size: 14px ;
+    font-weight: 200 ;
+    text-transform: uppercase;
+}
+
+.welcome h1 {
+    margin-bottom: 20px;
+}
+.welcome .watch-video {
+    gap:10px;
+}
+.welcome .watch-video a {
+    gap:10px;
+   
+}
+.welcome .watch-video a:hover .play {
+    border-color: #000;
+    color:#000;
+}
+.welcome .watch-video a .play {
+    border:2px solid #65c0ba;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.3s;
+}
+.welcome .watch-video a .play:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin-left:2% ;
+}
+.welcome .watch-video a span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.experience .experience-items img {
+width:70px;
+height:70px;
+margin-bottom: 20px;
+}
+.experience .experience-items h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.international .slider .pagination {
+    position: absolute;
+    bottom:30px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.international .slider .pagination ul {
+    display: flex;
+    gap:10px;
+}
+.international .slider .pagination ul li {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    border:2px solid #fff;
+    cursor: pointer;
+}
+.international .slider .pagination ul li.active {
+    background: transparent;
+}
+.international .slider img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.international .slider {
+    position: relative;
+} 
+.international .slider .arrow {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    transition: all 0.3s;
+}
+.international .slider .arrow:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.international .slider .arrow.prev {
+   right:0;
+   left:-60px;
+}
+.international .slider .arrow.next {
+    right:-60px;   
+}
+.blog {
+    position: relative;
+}
+.blog .rotate-box {
+    background-color: #65c0ba;
+    transform: rotate(-6deg);
+    width: 120%; 
+    position: absolute;
+    top:-330px;
+    padding:200px 0;
+    z-index: -1;
+    left:-10px;
+}
+.blog .blog-item .bottom {
+    background-color: #fff;
+    padding: 30px 20px;
+}
+.blog .blog-item .bottom .title {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 22px;
+}
+.blog .blog-item .bottom p {
+    min-height: 150px;
+}
+.blog .blog-item .bottom .title:hover h3 {
+color:#65c0ba;
+}
+.blog .blog-item .bottom .time {
+    margin:0;
+    color: #6c757d;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: -100px;
+}
+.testimonial .testimonial-item img {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-bottom: 30px;
+margin-top: 35px;
+}
+.testimonial .testimonial-item p {
+font-style: italic;
+font-size: 20px;
+color: #000;
+
+}
+.testimonial .testimonial-item p.author {
+    position: relative;
+    padding-left: 22px;
+    color:#6c757d;
+    padding-top: 18px;
+}
+.testimonial .testimonial-item p.author:before {
+    content: " — ";
+    position: absolute;
+    left:0;
+}
+.top-destination .top-destination-item .top {
+    box-shadow:2px 3px rgba(0, 0 ,0, 0.1);
+}
+.top-destination .top-destination-item .bottom .title {
+    margin-top: 10px;
+    display: block;
+}
+.top-destination .top-destination-item .bottom .info {
+    margin-top: 8px;
+}
+.top-destination .top-destination-item .bottom .info .rate {
+color:#65c0ba;
+font-size: 14px;
+}
+.top-destination .top-destination-item .bottom .info .review-count {
+    font-style: italic;
+    color: #ccc;
+}
+.top-destination .top-destination-item .bottom .info .rate ul {
+    gap:3px;
+}
+.footer {
+    background-color: #1a1a1a;
+}
+.footr span {
+    color:#fff;
+    font-style: italic;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.7);   
+}
+.footer .title {
+  color:#fff;
+  margin-bottom: 20px; 
+}
+.footer .footer-menu li a {
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 5px;
+}
+.footer .footer-menu li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.footer .subscribe {
+    position: relative;
+}
+.footer .subscribe input {
+    background: none;
+    border:none;
+    outline: 0;
+    color:#fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 45px 16px 0;
+    font-size: 16px;
+    width: 100%;
+    text-indent: 10px;
+    font-family:  "Mukta Mahee", arial, sans-serif;
+}
+.footer .subscribe input::placeholder {
+    color:rgba(255, 255, 255, 0.2);
+    font-style: italic;  
+}
+.footer .subscribe input:focus {
+    border-color: #fff;
+}
+.footer .subscribe button {
+    background: none;
+    outline: 0;
+    border : 0;
+    box-shadow: none;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:#fff;
+    font-size: 15px;
+}
+.footer .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 45px;
+}
+.footer .footer-bottom ul {
+    gap:10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer-bottom ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer-bottom ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+}

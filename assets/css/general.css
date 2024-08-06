@@ -1,0 +1,176 @@
+*,
+*:after ,
+*:before {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:  "Mukta Mahee", arial, sans-serif;
+    color:#6c7581;
+    font-weight:200;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+a {
+    text-decoration:none;
+    transition:all 0.5s;
+    color: #65c0ba;
+}
+ul ,
+ol {
+    list-style:none;
+}
+
+h1, h2 ,h3 ,h4 ,h5 , h6 {
+    font-family:"Abril Fatface", times, serif;
+    color:#000;
+}
+.heading {
+    font-family:"Abril Fatface", times, serif;
+}
+.container-full {
+    width:100%;
+    padding:10px 0px;
+}
+.container {
+    width:100%;
+    max-width:1140px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.flex {
+    display:flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.text-center {
+    text-align: center;
+}
+.align-center {
+    align-items:center;
+}
+.justify-center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.button {
+    display:inline-block;
+    border:2px solid #fff;
+    border-radius: 4px;
+    color:#fff;
+    padding: 0 40px;
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.15s;
+}
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mb-40 {
+    margin-top: 40px;
+}
+.mb-80 {
+    margin-top: 80px;
+}
+.row {
+    display: flex;
+    flex-wrap:wrap ;
+}
+.col-1 {
+    width:8.33%;
+}
+.col-2 {
+    width:16.66%;
+}
+.col-3 {
+    width:25%;
+}
+.col-4 {
+    width:33.33%;
+}
+.col-5 {
+    width:41.66%;
+}
+.col-6 {
+    width:50%;
+}
+.col-7 {
+    width:58.33%;
+}
+.col-8 {
+    width:66.66%;
+}
+.col-9 {
+    width:75%;
+}
+.col-10 {
+    width:83.33%;
+}
+.col-11 {
+    width:91.66%;
+}
+.col-12 {
+    width:100%;
+}
+.section-padding {
+    padding: 126px 0;
+}
+.welcome img {
+    width:100%;
+    height:auto;
+}
+[class^=col-] {
+    padding:20px 15px;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.pr-30 {
+    padding-right: 30px;
+}
+.bg-gray {
+    background-color: #fafafa;
+    border-top:1px solid #e0e0e0;
+}
+.bg-green {
+    background-color: #65c0ba;
+}
+.section-heading {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading.large .title {
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.section-heading.white .description {
+color:#fff;
+}
+.section-heading .description {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.full-width {
+    width:100%;
+    height:auto;
+}
+.transition-3 {
+    transition: all 0.3s;
+}
